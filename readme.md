@@ -48,6 +48,23 @@ A powerful yet lightweight **Sentiment Analysis Chatbot** designed to mimic a re
 https://github.com/prathmesh-sargar/Sentiment-Bot.git
 cd sentiment-chatbot
 
+```
+
+### Bacend setup : 
+```
+pip install Flask Flask-Cors nltk scikit-learn
+````
+
+
+### After installing, don’t forget to download NLTK stopwords:
+
+python Shell run this 
+```
+import nltk
+nltk.download('stopwords')  
+```
+📌 This is required to perform text preprocessing like removing common stopwords (e.g., "is", "the", "and").
+
 
 
 
