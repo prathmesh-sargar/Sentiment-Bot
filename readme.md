@@ -17,7 +17,9 @@ A powerful yet lightweight **Sentiment Analysis Chatbot** designed to mimic a re
 
 ## 📷 Preview
 
-![Chatbot Preview](preview-image.png)  
+![image](https://github.com/user-attachments/assets/c4c00342-22f1-4f8d-a77e-dedc8bee7bf6)
+
+![image](https://github.com/user-attachments/assets/73486ad8-3856-40d2-a362-4329aefa1b54)
 > *Chatbot UI in the corner — lightweight and clean.*
 
 ---
@@ -43,5 +45,9 @@ A powerful yet lightweight **Sentiment Analysis Chatbot** designed to mimic a re
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/sentiment-chatbot.git
+https://github.com/prathmesh-sargar/Sentiment-Bot.git
 cd sentiment-chatbot
+
+
+
+
