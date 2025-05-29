@@ -15,7 +15,7 @@ const Chatbot = () => {
     setLoading(true);
     setResponse(null);
     try {
-      const res = await axios.post('http://127.0.0.1:5000/', { comment });
+      const res = await axios.post('https://sentiment-bot-backend.onrender.com/', { comment });
       setResponse(res.data.sentiment === 1 ? 'positive' : 'negative');
     } catch (err) {
       console.error('Error:', err);
