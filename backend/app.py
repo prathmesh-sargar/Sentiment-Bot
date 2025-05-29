@@ -11,7 +11,8 @@ nltk.download('stopwords')
 ps = PorterStemmer()
 
 app = Flask(__name__)
-CORS(app)
+# Allow requests from your frontend's domain
+CORS(app, origins=["https://sentiment-bot-swart.vercel.app"])
 
 
 # Load your model and vectorizer
@@ -35,7 +36,7 @@ def preprocess_text(text):
 #         return render_template('index.html', sentiment=prediction)
 #     return render_template('index.html')
 
-@app.route('https://sentiment-bot-swart.vercel.app/', methods=['POST'])
+@app.route('/', methods=['POST'])
 def analyze_sentiment():
     data = request.get_json()
     comment = data.get('comment', '')
