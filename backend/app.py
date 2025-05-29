@@ -35,7 +35,7 @@ def preprocess_text(text):
 #         return render_template('index.html', sentiment=prediction)
 #     return render_template('index.html')
 
-@app.route('/', methods=['POST'])
+@app.route('https://sentiment-bot-swart.vercel.app/', methods=['POST'])
 def analyze_sentiment():
     data = request.get_json()
     comment = data.get('comment', '')
